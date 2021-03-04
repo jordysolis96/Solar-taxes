@@ -4,50 +4,61 @@
 <body>
 <nav th:replace="partials/navbar :: navbar"></nav>
 <h1>Make an appointment today!</h1>
-<h3>Address:</h3>
-<p></p>
 <br>
+<h3>Address:</h3>
+<p>2340 E Trinity Mills Rd Ste 351</p>
+<br>
+<h4>Call us to ask any questions or to schedule an appointment with us!</h4>
 <h3>Contacts number:</h3>
-<p>(972)834-8224</p>
+<p>Cell: (972)834-8224</p>
+<p>Office: (972)418-2914</p>
 <br>
 <h3>Contact email:</h3>
-<p></p>
+<p>solartax16@gmail.com</p>
 
-<h1></h1>
+<h1>Schedule:</h1>
+
 <table>
     <tr>
         <th>Hours</th>
-        <th>sunday</th>
-        <th>monday</th>
-        <th>tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-        <th>Saturday</th>
+        <th>AM</th>
+        <th>PM</th>
     </tr>
     <tr>
-        <td>AM</td>
+        <td>Sunday</td>
         <td>closed</td>
-        <td>9-12</td>
-        <td>9-12</td>
-        <td>9-12</td>
-        <td>9-12</td>
-        <td>9-12</td>
-        <td>9-12</td>
+        <td>closed</td>
     </tr>
     <tr>
-        <td>PM</td>
-        <td>closed</td>
+        <td>Monday</td>
+        <td>9-12</td>
         <td>12-5</td>
+    </tr><tr>
+        <td>Tuesday</td>
+        <td>9-12</td>
         <td>12-5</td>
+    </tr><tr>
+        <td>Wednesday</td>
+        <td>9-12</td>
         <td>12-5</td>
+    </tr><tr>
+        <td>Thursday</td>
+        <td>9-12</td>
         <td>12-5</td>
+    </tr>
+    <tr>
+        <td>Friday</td>
+        <td>9-12</td>
         <td>12-5</td>
-        <td>closed</td>
+    </tr>
+    <tr>
+        <td>Saturday</td>
+        <td>9-12</td>
+        <td>Closed</td>
     </tr>
 </table>
 
-<h1>Call us at any time to schedule an appointment!</h1>
+<h3>Call us at any time to schedule an appointment!</h3>
 <div th:replace="partials/scripts :: assets"></div>
 </body>
 </html>

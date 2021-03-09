@@ -1,26 +1,31 @@
 body{
     /*background: green;*/
-    background-image: url("green.jpeg");
+    background-image: url("29690-abstract-dark-green-background-graphics.jpg");
 }
 
 h1{
-    color: #b3b300;
+    color: #c8c850;
+    font-family: 'Shippori Mincho', serif;
 }
 
 table{
     color: #b3b300;
+    font-family: 'Shippori Mincho', serif;
 }
 
 p{
     color: #b3b300;
+    font-family: 'Shippori Mincho', serif;
 }
 
 h3{
     color: #b3b300;
+    font-family: 'Shippori Mincho', serif;
 }
 
 h4{
     color: #b3b300;
+    font-family: 'Shippori Mincho', serif;
 }
 
 table, th, td{
